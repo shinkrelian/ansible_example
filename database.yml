@@ -3,4 +3,4 @@
   become: true
   roles:
     - host
-    - mysql
+    - { role: mysql, db_name: demo, db_user_name: demo, db_user_password: demo, db_user_host: '%' }
