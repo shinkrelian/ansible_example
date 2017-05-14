@@ -3,3 +3,4 @@
     tasks:
       - name: get server hostname
         command: hostname
+        changed_when: false
